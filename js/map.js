@@ -1,13 +1,13 @@
 // **Hit to check**: 
-// alert('lealfet!')
+// alert('leaflet!')
 // console.log('gis lflt console!')
 
-var map = L.map('map').setView([25.5689,91.8831], 6);
+var map = L.map('map').setView([25.5689,91.8831 ], 6);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Esri'
 }).addTo(map);
 
 var marker = L.marker([25.5689,91.8831]).addTo(map)
-		.bindPopup('A test point')
+		.bindPopup('NE-SAC_Anirban')
 		.openPopup();	
