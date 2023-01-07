@@ -1,0 +1,71 @@
+// iteration
+
+cities.forEach(function(item){
+	console.log(item)
+});
+
+//obj array
+
+data.forEach(function(item){
+	console.log(item)
+});
+
+// Objects in Arrays
+
+let data = [
+	{
+		'title':'Osaka',
+		'lat': 34.6937,
+		'lon': 135.5023
+	},
+	{
+		'title':'Cali',
+		'lat': 3.4516,
+		'lon': -76.5320
+	},
+	{
+		'title':'Bangkok',
+		'lat': 13.7563,
+		'lon': 100.5018
+	},
+	{
+		'title':'Tokyo',
+		'lat': 35.6762,
+		'lon': 139.6503
+	},
+	{
+		'title':'LA',
+		'lat': 34.0522,
+		'lon': -118.2437
+	}
+]
+
+// Adding markers with a loop
+
+let data = [
+	{
+		'title':'Osaka',
+		'lat': 34.6937,
+		'lon': 135.5023
+	},
+	{
+		'title':'Cali',
+		'lat': 3.4516,
+		'lon': -76.5320
+	},
+	{
+		'title':'Bangkok',
+		'lat': 13.7563,
+		'lon': 100.5018
+	},
+	{
+		'title':'Tokyo',
+		'lat': 35.6762,
+		'lon': 139.6503
+	},
+	{
+		'title':'LA',
+		'lat': 34.0522,
+		'lon': -118.2437
+	}
+]

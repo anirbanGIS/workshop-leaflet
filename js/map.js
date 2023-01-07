@@ -1,6 +1,6 @@
 // **Hit to check**: 
 // alert('leaflet!')
-// console.log('gis lflt console!')
+// console.log('gis leaflet console!')
 
 var map = L.map('map').setView([25.5689,91.8831 ], 6);
 
